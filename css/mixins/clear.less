@@ -1,0 +1,8 @@
+// 混合 需要的时候调用 清除浮动
+.clearfix{
+  &::after{
+    clear: both;
+    display: block;
+    content: '';
+  }
+}
